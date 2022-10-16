@@ -38,6 +38,7 @@ defmodule MarkdownPageGenerator.MixProject do
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_live_view, "~> 0.17.5"},
       {:esbuild, "~> 0.4", runtime: Mix.env() == :dev},
+      {:earmark, "~> 1.4"},
       {:httpoison, "~> 1.8"},
       {:telemetry_metrics, "~> 0.6"},
       {:telemetry_poller, "~> 1.0"},
