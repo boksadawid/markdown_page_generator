@@ -1,1 +1,36 @@
 /* This file is for your main application CSS */
+body {
+  background-color: #030913;
+  color: #ebeff3;
+  padding: 0 1rem;
+}
+
+a {
+  color: #8CD790;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2,
+h3,
+h4 {
+  padding: .5rem;
+  border-left: 1px solid #8CD790;
+  border-bottom: 1px solid #8CD790;
+}
+
+pre {
+  background-color: #1c2a3a;
+  padding: .75rem 2rem;
+  color: #cad5e0;
+  border-left: 3px solid #8CD790;
+}
+
+code.inline {
+  background-color: #1c2a3a;
+  color: #cad5e0;
+  padding: .25rem .5rem;
+}
