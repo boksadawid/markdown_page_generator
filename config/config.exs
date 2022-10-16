@@ -10,9 +10,8 @@ import Config
 config :markdown_page_generator,
   user: System.get_env("GITHUB_USER"),
   project: System.get_env("GITHUB_PROJECT"),
-  branch: System.get_env("GITHUB_BRANCH")
-
-
+  branch: System.get_env("GITHUB_BRANCH"),
+  auth_token: System.get_env("GITHUB_AUTH_TOKEN")
 
 # Configures the endpoint
 config :markdown_page_generator, MarkdownPageGeneratorWeb.Endpoint,
