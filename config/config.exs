@@ -7,6 +7,13 @@
 # General application configuration
 import Config
 
+config :markdown_page_generator,
+  user: System.get_env("GITHUB_USER"),
+  project: System.get_env("GITHUB_PROJECT"),
+  branch: System.get_env("GITHUB_BRANCH")
+
+
+
 # Configures the endpoint
 config :markdown_page_generator, MarkdownPageGeneratorWeb.Endpoint,
   url: [host: "localhost"],
