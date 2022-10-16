@@ -36,6 +36,7 @@ defmodule MarkdownPageGenerator.MixProject do
       {:phoenix, "~> 1.6.13"},
       {:phoenix_html, "~> 3.0"},
       {:esbuild, "~> 0.4", runtime: Mix.env() == :dev},
+      {:httpoison, "~> 1.8"},
       {:telemetry_metrics, "~> 0.6"},
       {:telemetry_poller, "~> 1.0"},
       {:jason, "~> 1.2"},
