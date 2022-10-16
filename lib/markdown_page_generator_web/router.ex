@@ -16,6 +16,9 @@ defmodule MarkdownPageGeneratorWeb.Router do
 
   scope "/", MarkdownPageGeneratorWeb do
     pipe_through :browser
+
+    get "/", PageController, :show
+    get "/:route", PageController, :show
   end
 
   # Other scopes may use custom stacks.
